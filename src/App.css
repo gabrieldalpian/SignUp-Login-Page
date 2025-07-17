@@ -1,0 +1,121 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  height: 85vh;
+  padding-left: 10vw;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-hello {
+  position: absolute;
+  top: 17vh;
+  right: 24.5vw;
+  color: black;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#info {
+  position: absolute;
+  right:23.5vw;
+  top: 225px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot-password {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  cursor: pointer;
+  width: fit-content;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+  font-size: 12px;
+  padding-left: 10px;
+  background-color: rgb(232, 230, 230);
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.button-container {
+  position: absolute;
+  top: 470px;
+  right: 23.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  width: 250px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #ccc;
+  background-color: rgb(93, 169, 93);
+  color: white;
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 8px 0; 
+}
+
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;     
+  height: 1px;
+  background: #ccc;
+  margin: 0 10px;
+}
+
+.or p {
+  margin: 0;
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+}
+
+#signup {
+  position: absolute;
+  top: 570px;
+  right: 24vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
