@@ -1,0 +1,1 @@
+web: java -Dserver.port=$PORT -jar target/login-auth-0.0.1-SNAPSHOT.jar
